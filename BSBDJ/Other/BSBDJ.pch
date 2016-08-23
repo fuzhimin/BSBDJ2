@@ -1,0 +1,31 @@
+//
+//  BSBDJ.pch
+//  BSBDJ
+//
+//  Created by 付志敏 on 16/8/23.
+//  Copyright © 2016年 付志敏. All rights reserved.
+//
+
+//PCH步骤
+/** 
+ 1.提前编译pch
+ 
+ 1.存放公用宏
+ 2.存放公用头文件
+ 3.自定义Log
+ */
+
+#import "UIView+FZMExtension.h"
+#import "UIBarButtonItem+FZMExtension.h"
+
+#define FZMFunc FZMLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define FZMLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define FZMLog(...)
+
+#endif

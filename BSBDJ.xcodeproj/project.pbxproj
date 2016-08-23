@@ -25,6 +25,10 @@
 		92BC52421D6AE61400400B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BC52401D6AE61400400B51 /* LaunchScreen.storyboard */; };
 		92BC524D1D6AE61500400B51 /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC524C1D6AE61500400B51 /* BSBDJTests.m */; };
 		92BC52581D6AE61600400B51 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC52571D6AE61600400B51 /* BSBDJUITests.m */; };
+		92EDBE771D6C223600BF8786 /* UIView+FZMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDBE761D6C223600BF8786 /* UIView+FZMExtension.m */; };
+		92EDBE7A1D6C232600BF8786 /* UIBarButtonItem+FZMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDBE791D6C232600BF8786 /* UIBarButtonItem+FZMExtension.m */; };
+		92EDBE7E1D6C272F00BF8786 /* FZMNAavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDBE7D1D6C272F00BF8786 /* FZMNAavigationController.m */; };
+		92EDBE851D6C2CCB00BF8786 /* FZMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EDBE821D6C2CCB00BF8786 /* FZMSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,15 @@
 		92BC52531D6AE61600400B51 /* BSBDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BC52571D6AE61600400B51 /* BSBDJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJUITests.m; sourceTree = "<group>"; };
 		92BC52591D6AE61700400B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EDBE751D6C223600BF8786 /* UIView+FZMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FZMExtension.h"; sourceTree = "<group>"; };
+		92EDBE761D6C223600BF8786 /* UIView+FZMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FZMExtension.m"; sourceTree = "<group>"; };
+		92EDBE781D6C232600BF8786 /* UIBarButtonItem+FZMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FZMExtension.h"; sourceTree = "<group>"; };
+		92EDBE791D6C232600BF8786 /* UIBarButtonItem+FZMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FZMExtension.m"; sourceTree = "<group>"; };
+		92EDBE7B1D6C25F500BF8786 /* BSBDJ.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSBDJ.pch; sourceTree = "<group>"; };
+		92EDBE7C1D6C272F00BF8786 /* FZMNAavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMNAavigationController.h; sourceTree = "<group>"; };
+		92EDBE7D1D6C272F00BF8786 /* FZMNAavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMNAavigationController.m; sourceTree = "<group>"; };
+		92EDBE811D6C2CCB00BF8786 /* FZMSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMSettingViewController.h; sourceTree = "<group>"; };
+		92EDBE821D6C2CCB00BF8786 /* FZMSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +303,8 @@
 			children = (
 				929307E11D6BEC7900BB1EC2 /* FZMTarBarController.h */,
 				929307E21D6BEC7900BB1EC2 /* FZMTarBarController.m */,
+				92EDBE7C1D6C272F00BF8786 /* FZMNAavigationController.h */,
+				92EDBE7D1D6C272F00BF8786 /* FZMNAavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +323,7 @@
 				92BC52351D6AE61300400B51 /* AppDelegate.h */,
 				92BC52361D6AE61300400B51 /* AppDelegate.m */,
 				92BC52331D6AE61300400B51 /* main.m */,
+				92EDBE7B1D6C25F500BF8786 /* BSBDJ.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -321,6 +337,10 @@
 				929307F81D6BF91500BB1EC2 /* NSObject+FZMExtension.m */,
 				929307FA1D6BF94900BB1EC2 /* UIColor+FZMExtension.h */,
 				929307FB1D6BF94900BB1EC2 /* UIColor+FZMExtension.m */,
+				92EDBE751D6C223600BF8786 /* UIView+FZMExtension.h */,
+				92EDBE761D6C223600BF8786 /* UIView+FZMExtension.m */,
+				92EDBE781D6C232600BF8786 /* UIBarButtonItem+FZMExtension.h */,
+				92EDBE791D6C232600BF8786 /* UIBarButtonItem+FZMExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -357,6 +377,7 @@
 		92BC52311D6AE61300400B51 /* BSBDJ */ = {
 			isa = PBXGroup;
 			children = (
+				92EDBE7F1D6C2CCB00BF8786 /* Setting(设置) */,
 				929307DF1D6BEB0B00BB1EC2 /* Other */,
 				929307CC1D6BE9E400BB1EC2 /* Publish */,
 				929307C81D6BE97500BB1EC2 /* New */,
@@ -398,6 +419,39 @@
 				92BC52591D6AE61700400B51 /* Info.plist */,
 			);
 			path = BSBDJUITests;
+			sourceTree = "<group>";
+		};
+		92EDBE7F1D6C2CCB00BF8786 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				92EDBE801D6C2CCB00BF8786 /* Controller */,
+				92EDBE831D6C2CCB00BF8786 /* Model */,
+				92EDBE841D6C2CCB00BF8786 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		92EDBE801D6C2CCB00BF8786 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92EDBE811D6C2CCB00BF8786 /* FZMSettingViewController.h */,
+				92EDBE821D6C2CCB00BF8786 /* FZMSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92EDBE831D6C2CCB00BF8786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92EDBE841D6C2CCB00BF8786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,11 +588,15 @@
 				929308011D6BFC8400BB1EC2 /* FZMTarBar.m in Sources */,
 				929307F91D6BF91500BB1EC2 /* NSObject+FZMExtension.m in Sources */,
 				929307EC1D6BECE200BB1EC2 /* FZMMeViewController.m in Sources */,
+				92EDBE7A1D6C232600BF8786 /* UIBarButtonItem+FZMExtension.m in Sources */,
+				92EDBE851D6C2CCB00BF8786 /* FZMSettingViewController.m in Sources */,
 				929307E91D6BECD800BB1EC2 /* FZMFriendTrendViewController.m in Sources */,
 				929307FC1D6BF94900BB1EC2 /* UIColor+FZMExtension.m in Sources */,
 				929307F61D6BF37100BB1EC2 /* UIImage+FZMExtession.m in Sources */,
 				92BC523A1D6AE61300400B51 /* ViewController.m in Sources */,
 				929307E31D6BEC7900BB1EC2 /* FZMTarBarController.m in Sources */,
+				92EDBE771D6C223600BF8786 /* UIView+FZMExtension.m in Sources */,
+				92EDBE7E1D6C272F00BF8786 /* FZMNAavigationController.m in Sources */,
 				92BC52371D6AE61300400B51 /* AppDelegate.m in Sources */,
 				92BC52341D6AE61300400B51 /* main.m in Sources */,
 				929307F31D6BED0400BB1EC2 /* FZMPublishViewController.m in Sources */,
@@ -688,6 +746,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = BSBDJ/Other/BSBDJ.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fzm.BSBDJ;
@@ -702,6 +761,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = BSBDJ/Other/BSBDJ.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fzm.BSBDJ;

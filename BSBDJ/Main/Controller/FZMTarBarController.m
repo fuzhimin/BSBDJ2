@@ -14,6 +14,7 @@
 #import "FZMFriendTrendViewController.h"
 #import "UIImage+FZMExtession.h"
 #import "FZMTarBar.h"
+#import "FZMNAavigationController.h"
 
 @interface FZMTarBarController ()
 
@@ -83,12 +84,12 @@
 {
     //精华
     FZMEssenceViewController *essenceVC = [[FZMEssenceViewController alloc] init];
-    UINavigationController *essenceNav = [[UINavigationController alloc] initWithRootViewController:essenceVC];
+    FZMNAavigationController *essenceNav = [[FZMNAavigationController alloc] initWithRootViewController:essenceVC];
     [self addChildViewController:essenceNav];
     
     //新帖
     FZMNewViewController *newVC = [[FZMNewViewController alloc] init];
-    UINavigationController *newNav = [[UINavigationController alloc] initWithRootViewController:newVC];
+    FZMNAavigationController *newNav = [[FZMNAavigationController alloc] initWithRootViewController:newVC];
     [self addChildViewController:newNav];
     
 //    //发布
@@ -98,12 +99,12 @@
     
     //关注
     FZMFriendTrendViewController *friendTrendVC = [[FZMFriendTrendViewController alloc] init];
-    UINavigationController *friendTrendNav = [[UINavigationController alloc] initWithRootViewController:friendTrendVC];
+    FZMNAavigationController *friendTrendNav = [[FZMNAavigationController alloc] initWithRootViewController:friendTrendVC];
     [self addChildViewController:friendTrendNav];
     
     //我
     FZMMeViewController *meVC = [[FZMMeViewController alloc] init];
-    UINavigationController *meNav = [[UINavigationController alloc] initWithRootViewController:meVC];
+    FZMNAavigationController *meNav = [[FZMNAavigationController alloc] initWithRootViewController:meVC];
     [self addChildViewController:meNav];
 }
 

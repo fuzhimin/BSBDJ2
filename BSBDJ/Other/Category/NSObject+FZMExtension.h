@@ -10,7 +10,7 @@
 
 @interface NSObject (FZMExtension)
 
-// 自动打印属性字符串
+/** 自动打印属性字符串*/
 + (void)resolveDict:(NSDictionary *)dict;
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FZMMeViewController : UIViewController
+@interface FZMMeViewController : UITableViewController
 
 @end
