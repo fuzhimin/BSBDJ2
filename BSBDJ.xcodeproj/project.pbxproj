@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A8F27948EDA8EB5B83E154A /* libPods-BSBDJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6531B78E6600A84D7294E0DF /* libPods-BSBDJ.a */; };
 		929307E31D6BEC7900BB1EC2 /* FZMTarBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929307E21D6BEC7900BB1EC2 /* FZMTarBarController.m */; };
 		929307E61D6BECBC00BB1EC2 /* FZMEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929307E51D6BECBC00BB1EC2 /* FZMEssenceViewController.m */; };
 		929307E91D6BECD800BB1EC2 /* FZMFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929307E81D6BECD800BB1EC2 /* FZMFriendTrendViewController.m */; };
@@ -17,6 +18,10 @@
 		929307F91D6BF91500BB1EC2 /* NSObject+FZMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 929307F81D6BF91500BB1EC2 /* NSObject+FZMExtension.m */; };
 		929307FC1D6BF94900BB1EC2 /* UIColor+FZMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 929307FB1D6BF94900BB1EC2 /* UIColor+FZMExtension.m */; };
 		929308011D6BFC8400BB1EC2 /* FZMTarBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 929308001D6BFC8400BB1EC2 /* FZMTarBar.m */; };
+		92AE512D1D6C3A5400F54144 /* FZMADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE512B1D6C3A5400F54144 /* FZMADViewController.m */; };
+		92AE512E1D6C3A5400F54144 /* FZMADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AE512C1D6C3A5400F54144 /* FZMADViewController.xib */; };
+		92AE51311D6C3D3600F54144 /* FZMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE51301D6C3D3600F54144 /* FZMConst.m */; };
+		92AE51341D6C419A00F54144 /* XMGADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AE51331D6C419A00F54144 /* XMGADItem.m */; };
 		92BC52341D6AE61300400B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC52331D6AE61300400B51 /* main.m */; };
 		92BC52371D6AE61300400B51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC52361D6AE61300400B51 /* AppDelegate.m */; };
 		92BC523A1D6AE61300400B51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC52391D6AE61300400B51 /* ViewController.m */; };
@@ -49,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6531B78E6600A84D7294E0DF /* libPods-BSBDJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSBDJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2D15E8361E526B07EB86B2 /* Pods-BSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.release.xcconfig"; sourceTree = "<group>"; };
 		929307E11D6BEC7900BB1EC2 /* FZMTarBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMTarBarController.h; sourceTree = "<group>"; };
 		929307E21D6BEC7900BB1EC2 /* FZMTarBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMTarBarController.m; sourceTree = "<group>"; };
 		929307E41D6BECBC00BB1EC2 /* FZMEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMEssenceViewController.h; sourceTree = "<group>"; };
@@ -69,6 +76,13 @@
 		929307FB1D6BF94900BB1EC2 /* UIColor+FZMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FZMExtension.m"; sourceTree = "<group>"; };
 		929307FF1D6BFC8400BB1EC2 /* FZMTarBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMTarBar.h; sourceTree = "<group>"; };
 		929308001D6BFC8400BB1EC2 /* FZMTarBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMTarBar.m; sourceTree = "<group>"; };
+		92AE512A1D6C3A5400F54144 /* FZMADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMADViewController.h; sourceTree = "<group>"; };
+		92AE512B1D6C3A5400F54144 /* FZMADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMADViewController.m; sourceTree = "<group>"; };
+		92AE512C1D6C3A5400F54144 /* FZMADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZMADViewController.xib; sourceTree = "<group>"; };
+		92AE512F1D6C3D3600F54144 /* FZMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMConst.h; sourceTree = "<group>"; };
+		92AE51301D6C3D3600F54144 /* FZMConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMConst.m; sourceTree = "<group>"; };
+		92AE51321D6C419A00F54144 /* XMGADItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGADItem.h; sourceTree = "<group>"; };
+		92AE51331D6C419A00F54144 /* XMGADItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGADItem.m; sourceTree = "<group>"; };
 		92BC522F1D6AE61200400B51 /* BSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BC52331D6AE61300400B51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		92BC52351D6AE61300400B51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +108,7 @@
 		92EDBE7D1D6C272F00BF8786 /* FZMNAavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMNAavigationController.m; sourceTree = "<group>"; };
 		92EDBE811D6C2CCB00BF8786 /* FZMSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMSettingViewController.h; sourceTree = "<group>"; };
 		92EDBE821D6C2CCB00BF8786 /* FZMSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMSettingViewController.m; sourceTree = "<group>"; };
+		CEFDCA43BC57943F1ED82FB5 /* Pods-BSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8F27948EDA8EB5B83E154A /* libPods-BSBDJ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +137,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1756CB70221C26B81AB4AD79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6531B78E6600A84D7294E0DF /* libPods-BSBDJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		929307C31D6BE8DF00BB1EC2 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +348,8 @@
 				92BC52361D6AE61300400B51 /* AppDelegate.m */,
 				92BC52331D6AE61300400B51 /* main.m */,
 				92EDBE7B1D6C25F500BF8786 /* BSBDJ.pch */,
+				92AE512F1D6C3D3600F54144 /* FZMConst.h */,
+				92AE51301D6C3D3600F54144 /* FZMConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -354,6 +380,43 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		92AE51201D6C39D000F54144 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				92AE51211D6C3A0600F54144 /* Controller */,
+				92AE51241D6C3A0600F54144 /* Modle */,
+				92AE51251D6C3A0600F54144 /* View */,
+			);
+			name = "AD(广告)";
+			path = AD;
+			sourceTree = "<group>";
+		};
+		92AE51211D6C3A0600F54144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92AE512A1D6C3A5400F54144 /* FZMADViewController.h */,
+				92AE512B1D6C3A5400F54144 /* FZMADViewController.m */,
+				92AE512C1D6C3A5400F54144 /* FZMADViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92AE51241D6C3A0600F54144 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				92AE51321D6C419A00F54144 /* XMGADItem.h */,
+				92AE51331D6C419A00F54144 /* XMGADItem.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		92AE51251D6C3A0600F54144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		92BC52261D6AE61200400B51 = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +424,8 @@
 				92BC524B1D6AE61500400B51 /* BSBDJTests */,
 				92BC52561D6AE61600400B51 /* BSBDJUITests */,
 				92BC52301D6AE61200400B51 /* Products */,
+				D69B811C28CD0D1133CD0B98 /* Pods */,
+				1756CB70221C26B81AB4AD79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -377,6 +442,7 @@
 		92BC52311D6AE61300400B51 /* BSBDJ */ = {
 			isa = PBXGroup;
 			children = (
+				92AE51201D6C39D000F54144 /* AD(广告) */,
 				92EDBE7F1D6C2CCB00BF8786 /* Setting(设置) */,
 				929307DF1D6BEB0B00BB1EC2 /* Other */,
 				929307CC1D6BE9E400BB1EC2 /* Publish */,
@@ -454,6 +520,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D69B811C28CD0D1133CD0B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDCA43BC57943F1ED82FB5 /* Pods-BSBDJ.debug.xcconfig */,
+				8E2D15E8361E526B07EB86B2 /* Pods-BSBDJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -461,9 +536,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92BC525C1D6AE61700400B51 /* Build configuration list for PBXNativeTarget "BSBDJ" */;
 			buildPhases = (
+				AC1A20EF1926AF68B3402FDF /* [CP] Check Pods Manifest.lock */,
 				92BC522B1D6AE61200400B51 /* Sources */,
 				92BC522C1D6AE61200400B51 /* Frameworks */,
 				92BC522D1D6AE61200400B51 /* Resources */,
+				A034E29299E72EF7EB651DDE /* [CP] Embed Pods Frameworks */,
+				D32B7D0FE9AB753120AFA036 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -559,6 +637,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BC52421D6AE61400400B51 /* LaunchScreen.storyboard in Resources */,
+				92AE512E1D6C3A5400F54144 /* FZMADViewController.xib in Resources */,
 				92BC523F1D6AE61400400B51 /* Assets.xcassets in Resources */,
 				92BC523D1D6AE61400400B51 /* Main.storyboard in Resources */,
 			);
@@ -580,6 +659,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A034E29299E72EF7EB651DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1A20EF1926AF68B3402FDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D32B7D0FE9AB753120AFA036 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92BC522B1D6AE61200400B51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -596,12 +723,15 @@
 				92BC523A1D6AE61300400B51 /* ViewController.m in Sources */,
 				929307E31D6BEC7900BB1EC2 /* FZMTarBarController.m in Sources */,
 				92EDBE771D6C223600BF8786 /* UIView+FZMExtension.m in Sources */,
+				92AE51311D6C3D3600F54144 /* FZMConst.m in Sources */,
 				92EDBE7E1D6C272F00BF8786 /* FZMNAavigationController.m in Sources */,
 				92BC52371D6AE61300400B51 /* AppDelegate.m in Sources */,
 				92BC52341D6AE61300400B51 /* main.m in Sources */,
 				929307F31D6BED0400BB1EC2 /* FZMPublishViewController.m in Sources */,
 				929307E61D6BECBC00BB1EC2 /* FZMEssenceViewController.m in Sources */,
 				929307F01D6BECF300BB1EC2 /* FZMNewViewController.m in Sources */,
+				92AE51341D6C419A00F54144 /* XMGADItem.m in Sources */,
+				92AE512D1D6C3A5400F54144 /* FZMADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,6 +872,7 @@
 		};
 		92BC525D1D6AE61700400B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFDCA43BC57943F1ED82FB5 /* Pods-BSBDJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -757,6 +888,7 @@
 		};
 		92BC525E1D6AE61700400B51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2D15E8361E526B07EB86B2 /* Pods-BSBDJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

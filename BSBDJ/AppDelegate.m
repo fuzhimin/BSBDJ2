@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FZMTarBarController.h"
+#import "FZMADViewController.h"
 
 @interface AppDelegate ()
 
@@ -26,7 +26,7 @@
     //1.创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     //2.设置窗口的根控制器
-    FZMTarBarController *tabBarVC = [[FZMTarBarController alloc] init];
+    FZMADViewController *tabBarVC = [[FZMADViewController alloc] init];
     self.window.rootViewController = tabBarVC;
     //3.显示在窗口上
     [self.window makeKeyAndVisible];
