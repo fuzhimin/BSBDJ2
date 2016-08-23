@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FZMTarBarController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,24 @@
 
 @implementation AppDelegate
 
+/** 
+ 1.首先我们应该自定义一个tabbar 方便管理我们的tarbar
+ 2.方便维护我们的代码
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1.创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //2.设置窗口的根控制器
+    FZMTarBarController *tabBarVC = [[FZMTarBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
+    //3.显示在窗口上
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 
